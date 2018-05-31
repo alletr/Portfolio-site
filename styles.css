@@ -65,11 +65,6 @@ div.descr {
     text-transform: uppercase;
 }
 
-/*.main {
-    width: 100%;
-
-}*/
-
 .main_pic {
     width: 100%;
     max-width: 600px;
@@ -88,9 +83,9 @@ div.descr {
     padding: 10px;
 }
 
-/*ok for max size screen:*/
+/*ok for tablet size screen:*/
 
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .main_pic {
         width: 100%;
         max-width: 770px;
@@ -117,12 +112,11 @@ div.descr {
         margin-right: auto;
     }
 }
-
+/* laptop size screen*/
 @media only screen and (min-width: 771px) {
     header,
     main {
         width: 100%;
-        max-width: 992px;
         margin-left: auto;
         margin-right: auto;
     }
